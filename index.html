@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Prestaciones</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Calculadora de Prestaciones</h2>
+    <form target="_blank">
+      <label for="fname">Nombre del Solicitante:</label><br>
+      <input type="text" id="fname" ><br>
+
+      <label for="lname">Documento de Identidad</label><br>
+      <input type="number" id="lname" ><br>
+
+      <label for="lname">Salario Mensual</label><br>
+      <input type="number" id="lname" ><br>
+
+      <label for="start">Selección de fechas</label><br>
+      <input type="date" id="start" name="trip-start"  min="2015-01-01" max="2023-08-31" />
+      <input type="date" id="start" name="trip-start"  min="2015-01-01" max="2023-08-31" /><br>
+
+      <label for="lname">¿Ha sido usted pre-avisado?</label><br>
+      <input type="radio" id="" name="preAviso" value="Si">
+      <label for="yes">Si</label><br>
+      <input type="radio" id="" name="preAviso" value="No">
+      <label for="no">No</label><br>
+
+      <label for="lname">¿Desea incluir cesantía?</label><br>
+      <input type="radio" id="" name="cesantia" value="Si">
+      <label for="yes">Si</label><br>
+      <input type="radio" id="" name="cesantia" value="No">
+      <label for="no">No</label><br>
+
+      <label for="lname">¿Ha tomado las vacaciones correspondientes al último año?</label><br>
+      <input type="radio" id="" name="vacaciones" value="Si">
+      <label for="yes">Si</label><br>
+      <input type="radio" id="" name="vacaciones" value="No">
+      <label for="no">No</label><br>
+
+      <label for="lname">¿Incluir salario de navidad?</label><br>
+      <input type="radio" id="" name="Sal_navidad" value="Si">
+      <label for="yes">Si</label><br>
+      <input type="radio" id="" name="Sal_navidad" value="No">
+      <label for="no">No</label><br>
+
+      <input type="submit">
+      <input type="reset">
+    </form>
+  </div>
+   <script src="prestaciones.js"></script>
+</body>
+</html>
